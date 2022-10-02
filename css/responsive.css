@@ -1,0 +1,784 @@
+/*
+====================================
+Medium Screen - Others
+====================================
+*/
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    .search-area {
+        max-width: 243px;
+        margin: 0 15px;
+    }
+    .nav-items ul li {
+        padding-right: 13px;
+    }
+    .nav-items ul li a {
+        font-size: 11px;
+    }
+    .customer-number h2 {
+        font-size: 21px;
+    }
+    .news-nav ul li {
+        padding: 0 0 0 18px;
+    }
+    .news-title h2 {
+        font-size: 19px;
+        margin-top: 10px;
+    }
+    .download-title h2 {
+        font-size: 20px;
+        margin: 10px 0 15px;
+    }
+    .news-nav ul li a {
+        font-size: 16px;
+    }
+    .news-nav ul li a::after {
+        width: 2px;
+        height: 13px;
+        top: 5px;
+        right: -10px;
+    }
+    .news-btn a {
+        font-size: 12px;
+    }
+    .download-input-area {
+        max-width: 240px;
+    }
+    .news-text p {
+        font-size: 9px;
+        margin: 8px 0 10px;
+    }
+    .date-info p span {
+        font-size: 10px;
+    }
+    .date-info p:first-of-type span {
+        margin: 0 5px 0 5px;
+    }
+    .most-love-nav ul li a,
+    .most-love-btn a {
+        font-size: 13px;
+    }
+    .most-love-left h2 {
+        margin-top: 12px;
+    }
+
+    /* SINGLE PAGE START */
+
+    .noor-exclusive-content h2 {
+        font-size: 11px;
+    }
+
+    .noor-exclusive-content p {
+        font-size: 12px;
+    }
+
+    .store-details .td2 {
+        font-size: 14px;
+    }
+
+    .store-details .td1 {
+        font-size: 13px;
+    }
+
+    .about-item::after {
+        width: 695px;
+        position: absolute;
+        bottom: -5px;
+        left: -133%;
+    }
+
+    .buy-area-content {
+        margin-top: -30px;
+    }
+
+    .rating-start-text, .rating-percent {
+        width: 16%;
+    }
+
+    .rating-box {
+        width: 55%;
+    }
+
+    .customer-information {
+        padding-left: 60px;
+    }
+
+    .product-information-table {
+        padding-bottom: 50px;
+    }
+
+    .search-result-left h2 {
+        font-size: 27px;
+    }
+
+    .search-show-content2 select {
+        padding: 6px 24px 6px 10px;
+    }
+
+    .search-show-content3 p a {
+        background-color: transparent;
+        padding: 6px 45px 6px 12px;
+    }
+
+    .variant-title h2 {
+        font-size: 12px;
+        margin: 15px 0 20px;
+    }
+
+    .wishlist-btn a {
+        font-size: 12px;
+        margin-bottom: 5px;
+    }
+
+    .product-variant-details {
+        margin-bottom: 30px;
+    }
+
+    .filter-area {
+        margin-bottom: 10px;
+    }
+
+    .filter-catagory-area {
+        padding-top: 8px;
+    }
+
+    .filter-catagory-content ul li a {
+        font-size: 13px;
+        padding: 7px 13px;
+    }
+
+    .amount-nav ul li a {
+        padding: 5px 14px;
+    }
+
+    .discount-nav ul li a {
+        font-size: 13px;
+        padding: 7px 13px;
+    }
+
+    .color-filter-area .filter-catagory-content ul li a {
+        padding: 10px 19px 5px 13px;
+    }
+
+    .discount-nav h2 {
+        margin: 9px 0 10px;
+    }
+
+    .headephone-control-nav ul li {
+        padding: 0 6px 9px 0;
+    }
+
+    .special-offer-item .headephone-content p {
+        margin-top: 0;
+    }
+
+    .most-love-items .headephone-content p del {
+        margin-left: 5px;
+    }
+
+    .filter-title h2 {
+        margin-bottom: 2px;
+    }
+
+    .filter-reviwe-area p {
+        margin-bottom: 0;
+    }
+
+    .headphone-price-details .table .th1 {
+        width: 85%;
+    }
+
+    .headphone-price-details .table .th2 {
+        width: 15%;
+    }
+
+    .carousel-cell {
+        width: 32%;
+    }
+
+    .flickity-page-dots .dot {
+        display: inline-block;
+        margin-bottom: 10px;
+    }
+      
+}
+
+/*
+====================================
+Small Screen - Tablate
+====================================
+*/
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .top-header {
+        display: none;
+    }
+    .sm-logo-area {
+        display: block;
+    }
+    .nav-items ul {
+        display: none;
+    }
+    .menu-bar {
+        display: block;
+    }
+    .nav-area {
+        background-color: #030C1E;
+    }
+    .offer-nav {
+        display: flex;
+        margin-left: 10px;
+    }
+    .slide-menu .nav-items ul {
+        display: block;
+    }
+    .search-area {
+        margin: 0 0 10px 0;
+    }
+    .search-area input {
+        color: #030C1E;
+    }
+    .top-header .click-call {
+        margin-top: 8px;
+    }
+    .click-call h2 a {
+        color: #030C1E;
+        font-weight: 500;
+    }
+    .click-call p {
+        color: black;
+    }
+    .featured-item-wrapper {
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .news-content {
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
+    }
+    .download-area {
+        margin-top: 30px;
+    }
+    .download-input-area {
+        margin: 0 auto;
+    }
+    .download-title h2 {
+        margin-bottom: 15px;
+    }
+    .app-logo {
+        text-align: center;
+        margin-top: -10px;
+    }
+    .customer-number {
+        margin-bottom: 25px;
+    }
+    .payment-area {
+        text-align: center;
+        padding: 40px 0;
+    }
+    .main-content7 .owl-theme .custom-nav .owl-prev {
+        left: 40%;
+    }
+    .main-content7 .owl-theme .custom-nav .owl-next {
+        right: 45%;
+    }
+    .top-header-sm {
+        display: block;
+    }
+    .top-heade-sm .top-main .click-call {
+        margin-top: -14px;
+    }
+
+    .nav-area-sm {
+        display: block;
+    }
+
+    .nav-area {
+        display: none;
+    }
+
+     /* SINGLE PAGE START */
+
+    .about-item::after {
+        display: none;
+    }
+
+    .buy-area-content {
+        margin-top: 30px;
+    }
+
+    .about-item {
+        border-bottom: 1px solid rgba(129, 123, 123, 0.5);
+        margin-bottom: 20px;
+    }
+
+    .this-product-area {
+        padding: 24px 0 30px 0;
+    }
+
+    .customer-information {
+        padding-left: 0;
+    }
+
+    .about-item ul li span {
+        font-size: 15px;
+    }
+
+    .toy-name-details h2 {
+        margin: 10px 0 16px;
+    }
+
+    .noor-exclusive-content {
+        align-items: center;
+    }
+
+    .product-information-area {
+        padding-bottom: 38px;
+    }
+
+    /* CATAGORY PAGE START*/
+
+    .search-result-left h2 {
+        font-size: 26px;
+    }
+
+    .search-show-content2 select {
+        padding: 6px 20px 6px 10px;
+    }
+
+    .search-show-content3 p a img:first-of-type {
+        margin: 0 0 0 8px;
+    }
+
+     .search-show-content3 p a {
+        padding: 6px 15px 6px 12px;
+        background-color: transparent;
+    }
+
+    .product-variant-img img {
+        width: 200px;
+    }
+
+    .product-variant-img {
+        text-align: center;
+    }
+
+    .headphone-price-details .table .th1 {
+        width: 80%;
+    }
+
+    .headphone-price-details .table .th2 {
+        width: 20%;
+    }
+
+    .premium-product-wrapper3 .premium-product-price h2 {
+        margin-top: 10px;
+    }
+
+    .premium-product-img1 {
+        margin-top: 17px;
+    }
+
+    .carousel-cell {
+        width: 48%;
+    }
+
+    .flickity-page-dots .dot {
+        display: inline-block;
+        margin-bottom: 10px;
+    }
+
+
+}
+
+/*
+====================================
+Small Screen - Mobile
+====================================
+*/
+
+@media screen and (max-width: 767px) {
+    .top-header {
+        display: none;
+    }
+
+    .nav-area {
+        display: none;
+    }
+    .sm-logo-area {
+        display: block;
+    }
+    .nav-items ul {
+        display: none;
+    }
+    .menu-bar {
+        display: block;
+    }
+    .nav-area {
+        background-color: #030C1E;
+    }
+    .offer-nav {
+        display: flex;
+        margin-left: 10px;
+    }
+    .slide-menu .nav-items ul {
+        display: block;
+    }
+    .search-area {
+        margin: 0 0 10px 0;
+    }
+    .search-area input {
+        color: #030C1E;
+    }
+    .top-header .click-call {
+        margin-top: 8px;
+    }
+    .click-call h2 a {
+        color: #030C1E;
+        font-weight: 500;
+    }
+    .click-call p {
+        color: black;
+    }
+    .hero-title {
+        padding-left: 30px;
+    }
+    .title-content p {
+        font-size: 12px;
+    }
+    .looking-for-area {
+        padding: 0 0 25px;
+    }
+    .looking-left h2 {
+        font-size: 19px;
+        padding: 12px 14px 12px 15px;
+    }
+    .looking-right a {
+        font-size: 16px;
+    }
+    .main-content2 .owl-theme .custom-nav .owl-prev,
+    .main-content2 .owl-theme .custom-nav .owl-next {
+        display: none;
+    }
+    .main-content2 .owl-theme .owl-dots {
+        margin-top: 15px;
+        display: block;
+    }
+    .featured-item-wrapper {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .main-content3 .owl-theme .custom-nav .owl-prev,
+    .main-content4 .owl-theme .custom-nav .owl-prev,
+    .main-content3 .owl-theme .custom-nav .owl-next,
+    .main-content4 .owl-theme .custom-nav .owl-next {
+        display: none;
+    }
+    .main-content3 .owl-theme .owl-dots,
+    .main-content4 .owl-theme .owl-dots,
+    .main-content5 .owl-theme .owl-dots,
+    .main-content6 .owl-theme .owl-dots {
+        display: block;
+    }
+    .new-arrival-nav ul li a {
+        font-size: 17px;
+    }
+    .new-arrival-nav ul li {
+        padding-right: 20px;
+    }
+    .most-love-nav ul li a,
+    .most-love-btn a {
+        font-size: 16px;
+    }
+    .main-content5 .owl-theme .custom-nav .owl-prev,
+    .main-content5 .owl-theme .custom-nav .owl-next {
+        display: none;
+    }
+    .main-content6 .owl-theme .custom-nav .owl-prev,
+    .main-content6 .owl-theme .custom-nav .owl-next {
+        display: none;
+    }
+    .main-content7 .owl-theme .owl-dots {
+        display: block;
+    }
+    .main-content7 .owl-theme .custom-nav .owl-prev,
+    .main-content7 .owl-theme .custom-nav .owl-next {
+        display: none;
+    }
+    .news-content {
+        border-top-left-radius: 33px;
+        border-top-right-radius: 33px;
+    }
+    .news-nav ul li {
+        padding: 0 15px 0 0;
+    }
+    .news-nav ul li a::after {
+        right: -9px;
+    }
+    .download-area {
+        margin-top: 20px;
+    }
+    .download-title h2 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .download-input-area {
+        max-width: 250px;
+        margin: 0 auto;
+    }
+    .download-content p {
+        font-size: 11px;
+        margin: 12px 0;
+    }
+    .app-logo {
+        text-align: center;
+    }
+    .news-area {
+        padding-bottom: 25px;
+    }
+    .main-content8 .owl-theme .owl-dots {
+        display: block;
+    }
+    .main-content8 .owl-theme .custom-nav .owl-prev {
+        left: -22px;
+    }
+    .main-content8 .owl-theme .custom-nav .owl-next {
+        right: -22px;
+    }
+    .happy-customer-area {
+        padding: 25px 0;
+    }
+    .customer-number {
+        margin-bottom: 15px;
+    }
+    .footer-menu ul li a {
+        padding: 10px 0;
+    }
+    .footer-menu ul li {
+        padding-left: 10px;
+    }
+    .social-menu {
+        margin-bottom: 25px;
+    }
+    .payment-area {
+        padding: 25px 0 0 0;
+    }
+    .top-header-sm {
+        display: block;
+    }
+
+    .nav-area-sm {
+        display: block;
+    }
+
+    /* SINGLE PAGE START */
+
+    .about-item::after {
+        display: none;
+    }
+
+    .buy-area-content {
+        margin-top: 30px;
+    }
+
+    .buy-img-wrapper {
+        justify-content: space-between;
+    }
+
+    .buy-img-item img {
+        width: 50px;
+    }
+
+    .buy-img-item img:nth-child(2) {
+        margin-right: 0;
+        width: 10px;
+    }
+
+    .buy-img-item img:nth-child(4) {
+        margin-right: 0;
+        width: 10px;
+    }
+
+    .buy-btn {
+        padding-left: 0px;
+    }
+
+    .buy-btn p {
+        font-size: 13px;
+    }
+
+    .buy-btn p span {
+        font-size: 14px;
+    }
+
+    .buy-btn a {
+        font-size: 12px;
+    }
+
+    .checkbox-content {
+        display: flex;
+    }
+
+    .checkbox-area {
+        padding: 30px 0 0;
+    }
+
+    .browing-history-title h2 {
+        font-size: 17px;
+    }
+
+    .browing-history-title p {
+        font-size: 14px;
+    }
+    
+    .product-information-table .td1, .product-information-table .td2 {
+        font-size: 14px;
+    }
+
+    .product-information-table .rating-count p {
+        margin-top: 0px;
+    }
+
+    .product-information-table .rating-count SPAN {
+        font-size: 14px;
+    }
+
+    .browsing-history-area {
+        padding: 0 0 20px 0;
+    }
+
+    .product-information-table {
+        padding-bottom: 20px;
+    }
+
+    .by-feature-area {
+        padding: 20px 0;
+    }
+
+    .customer-information {
+        padding: 0;
+    }
+
+    .user-reviwe p {
+        font-size: 16px;
+    }
+
+    .rating-marks p {
+        font-size: 16px;
+    }
+
+    .user-reviwe-btn a {
+        font-size: 15px;
+    }
+
+    .this-product-area {
+        padding: 24px 0 30px 0;
+    }
+
+    .product-information-area {
+        padding-bottom: 25px;
+    }
+
+    .product-variant-img img {
+        width: 200px;
+    }
+
+    .product-variant-img {
+        text-align: center;
+    }
+
+    .choose-headphone-title h2 {
+        font-size: 22px;
+    }
+
+    .choose-headphone-title p {
+        font-size: 15px;
+    }
+
+    .choose-headphone-title h3 {
+        font-size: 22px;
+    }
+
+    .headphone-price-details .table .td1, .headphone-price-details .table .td2 {
+        font-size: 16px;
+    }
+
+    .variety-best-headphone p {
+        font-size: 15px;
+    }
+
+    .related-search-area {
+        padding: 45px 0 30px;
+    }
+
+    .headphone-price-details .table .th1 {
+        width: 75%;
+    }
+
+    .headphone-price-details .table .th2 {
+        width: 25%;
+    }
+
+    .premium-product-wrapper img {
+        max-width: 200px;
+        margin: 0 auto;
+    }
+
+    .main-content10 .owl-theme .owl-dots {
+        display: block;
+    }
+
+    .main-content10 .owl-theme .custom-nav .owl-prev,
+    .main-content10 .owl-theme .custom-nav .owl-next {
+        display: none;
+    }
+
+    .carousel-cell {
+        width: 100%;
+    }
+
+    .flickity-prev-next-button .flickity-button-icon {
+        display: none;
+    }
+
+    .flickity-page-dots .dot {
+        display: inline-block;
+        margin-bottom: 10px;
+    }
+
+    
+}
+
+/*
+====================================
+Xtra Small Screen - Small Mobile
+====================================
+*/
+
+@media screen and (max-width: 576px) {
+    .most-love-right {
+        display: block;
+    }
+    .news-nav-area {
+        margin: 15px 0;
+        display: block;
+    }
+    .download-input-area {
+        max-width: 210px;
+    }
+    .news-btn {
+        margin-top: 15px;
+    }
+
+    /* SINGLE PAGE START */
+
+    .product-information-table .td1, .product-information-table .td2 {
+        font-size: 13px;
+    }
+
+    .headphone-price-details .table .th1 {
+        width: 50%;
+    }
+
+    .headphone-price-details .table .th2 {
+        width: 25%;
+    }
+}
